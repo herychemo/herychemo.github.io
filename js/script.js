@@ -24,7 +24,6 @@ var main = function(){
 	on_resize();
 
 	window.onload = function(){
-		alert("Cosas");
 		
 		$("#loading-window").slideUp('fast');
 	}
