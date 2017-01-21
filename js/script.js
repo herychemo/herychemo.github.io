@@ -25,6 +25,7 @@ var main = function(){
 
 	window.onload = function(){
 		alert("Cosas");
+		
 		$("#loading-window").slideUp('fast');
 	}
 
