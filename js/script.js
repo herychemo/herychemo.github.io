@@ -24,7 +24,7 @@ var main = function(){
 	on_resize();
 
 	window.onload = function(){
-		
+		$("html, body").animate({ scrollTop: 0 }, "fast");
 		$("#loading-window").slideUp('fast');
 	}
 
