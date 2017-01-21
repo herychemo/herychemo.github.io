@@ -9,18 +9,22 @@
 
 	font-family: 'Lato', sans-serif;
 	
-	color: #001433;
+	color: #f0f7ff;
 
 }
 
 body{
 
-	background-color: #e6f0ff; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(right top, #80b3ff, #e6f0ff); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom left, #80b3ff, #e6f0ff); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom left, #80b3ff, #e6f0ff); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom left, #80b3ff, #e6f0ff); /* Standard syntax */
+	background-color: #006bb3; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(right top, #3333cc, #006bb3); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #3333cc, #006bb3); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #3333cc, #006bb3); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom left, #3333cc, #006bb3); /* Standard syntax */
 	
+
+    background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+
 	padding: 0px;
 
 	min-width: 335px;
