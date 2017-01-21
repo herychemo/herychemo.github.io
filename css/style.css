@@ -15,22 +15,22 @@
 
 body{	
 
-    background: url('../images/bg1.jpg') no-repeat;
-    background-size: cover;
-
 	padding: 0px;
 
 	min-width: 335px;
 	min-height: 600px;
 	
-	padding: 20px;
-	padding-bottom: 30px;
 }
 
 article{
 
     padding: 15px;
     background-color: rgba(35, 35, 35, 0.7)
+}
+
+div.parallax-window{
+	min-height: 1080px;
+	padding: 60px;
 }
 
 .accent-text{
