@@ -22,17 +22,49 @@ body{
 	
 }
 
-article{
-
-    padding: 15px;
-    background-color: rgba(35, 35, 35, 0.7)
+article.content-info{
+    padding: 24px;
+    background-color: rgba(35, 35, 35, 0.7);
 }
 
+.simple-container{
+	margin: auto;
+    max-width: 60%;
+}
 div.parallax-window{
 	min-height: 1080px;
-	padding: 60px;
+	padding: 120px;
+}
+
+@media (max-width: 1000px){
+	.simple-container{
+		max-width: 80%;
+	}
+	div.parallax-window{
+		padding: 60px;
+	}	
+}
+@media (max-width: 750px){
+	.simple-container{
+		max-width: 90%;
+	}
+}
+@media (max-width: 560px){
+	.simple-container{
+		max-width: 100%;
+	}
+	div.parallax-window{
+		padding: 20px;
+	}
 }
 
 .accent-text{
 	font-size: 18px;
+}
+
+#loading-window{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
 }
