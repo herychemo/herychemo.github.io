@@ -93,3 +93,10 @@ div.parallax-window{
 .loading-anim{
 	max-height: 60px;
 }
+
+.social-box{
+	margin: 26px 14px;
+}
+.social-icon{
+	margin: 6px;
+}
