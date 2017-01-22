@@ -28,9 +28,46 @@ var main = function(){
 		$("#loading-window").slideUp('fast');
 	}
 
+	add_photo_events( $(  $(".gallery-container")[0]  ) );
 }
 $(main);
 
 function on_resize(){
 	p_windows.css('minHeight', $(window).height() );
+	hide_all_theater_photos();
+}
+
+function add_photo_events( $album ){ 
+	var $photos = $album.children('img');
+	$photos.click(function(e){
+		console.log("starts");
+		hide_all_theater_photos();
+		$window = $(window);
+		$photo = $("<img class=\"theater-photo rad-corner-min\" alt=\"Theater\"></img> ");
+		$photo.attr('src', $(this).attr('src')  );
+		$("#_ref").before( $photo );
+
+		$photo.css({
+			position: 'fixed',
+			maxHeight : 600,
+			maxWidth : 600,
+		});
+		$photo.css({
+			top: 	($window.height() / 2) - ($photo.height() / 2) ,
+			left: 	($window.width() / 2) - ($photo.width() / 2) ,
+			display : 'none'
+		});
+		$photo.click(function(event) {
+			hide_all_theater_photos();
+		});
+
+		$photo.slideDown("fast");
+		console.log("ends");
+	});
+}
+
+function hide_all_theater_photos(){
+	$(".theater-photo").slideUp("fast", function(){
+		$(this).remove();
+	});
 }
