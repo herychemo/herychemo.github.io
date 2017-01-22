@@ -28,9 +28,17 @@ var main = function(){
 		$("#loading-window").slideUp('fast');
 	}
 
+	add_photo_events( $(  $(".gallery-container")[0]  ) );
 }
 $(main);
 
 function on_resize(){
 	p_windows.css('minHeight', $(window).height() );
+}
+
+function add_photo_events( $album ){ 
+	var $photos = $album.children('img');
+	$photos.click(function(e){
+		alert( $(this).attr('src') );
+	});
 }

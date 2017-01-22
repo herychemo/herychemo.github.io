@@ -37,6 +37,13 @@ article.content-info{
 	border: 0px solid #000000;
 }
 
+.rad-corner-min{
+	border-radius: 			4px;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+	border: 0px solid #000000;
+}
+
 .simple-container{
 	margin: auto;
     max-width: 60%;
@@ -112,4 +119,18 @@ div.parallax-window{
 }
 .social-icon{
 	margin: 6px;
+}
+
+.gallery-container{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 12px;
+	margin: 4px;
+}
+
+.gallery-container img{
+	max-height: 146px;
+	max-width: 146px;
+	margin: 5px;
+	cursor: pointer;
 }
