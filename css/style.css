@@ -24,7 +24,17 @@ body{
 
 article.content-info{
     padding: 24px;
+}
+
+.shadow-bg{
     background-color: rgba(35, 35, 35, 0.7);
+}
+.rad-corner{
+	padding: 				8px;
+	border-radius: 			8px;
+	-moz-border-radius: 	8px;
+	-webkit-border-radius: 	8px;
+	border: 0px solid #000000;
 }
 
 .simple-container{
@@ -96,6 +106,9 @@ div.parallax-window{
 
 .social-box{
 	margin: 26px 14px;
+	padding: 16px;
+	display: inline-block;
+
 }
 .social-icon{
 	margin: 6px;
