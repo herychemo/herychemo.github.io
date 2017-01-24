@@ -52,6 +52,11 @@ function add_photo_events( $album ){
 			maxHeight : 600,
 			maxWidth : 600,
 		});
+		if ( $photo.height() == 0 || $photo.width() == 0 ) {
+			console.log("Issue...");
+			hide_all_theater_photos();
+			return;
+		}
 		$photo.css({
 			top: 	($window.height() / 2) - ($photo.height() / 2) ,
 			left: 	($window.width() / 2) - ($photo.width() / 2) ,
