@@ -4,7 +4,7 @@ var p_windows = 0;
 var main = function(){
 	console.log("Hi Friends");
 
-	var image_path_base = "./images/bg$.jpg";
+	var image_path_base = "./images/bg/bg$.jpg";
 	
 	p_windows = $(".parallax-window");	
 	
