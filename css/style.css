@@ -25,6 +25,12 @@ body{
 article.content-info{
     padding: 24px;
 }
+.justify-txt{
+	text-align: justify;
+}
+.center-content{
+    text-align: center;
+}
 
 .shadow-bg{
     background-color: rgba(35, 35, 35, 0.7);
@@ -85,6 +91,11 @@ div.parallax-window{
 	text-align: center;
 
 	cursor: pointer;
+	margin: 12px;
+}
+.info-cube-container{
+	overflow-x: scroll;
+	overflow-y: hidden;
 }
 .info-cube span{
 	display: block;
