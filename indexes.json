@@ -1,0 +1,883 @@
+{
+    "files": [
+        "favicon.ico",
+        "index.html",
+        "indexer.py"
+    ],
+    "dirs": {
+        "js": {
+            "files": [
+                "parallax.min.js",
+                "script.js"
+            ],
+            "dirs": {}
+        },
+        "css": {
+            "files": [
+                "style.css"
+            ],
+            "dirs": {}
+        },
+        "assets": {
+            "files": [
+                "email-64.png",
+                "facebook-64.png",
+                "github-64.png",
+                "google+-64.png",
+                "linkedin-64.png",
+                "loading.gif"
+            ],
+            "dirs": {}
+        },
+        "docs": {
+            "files": [
+                "CV.pdf",
+                "Reyes Esparza Heriberto-Java Fundaments.pdf",
+                "Reyes Esparza Heriberto-Xamarinlat.jpg"
+            ],
+            "dirs": {}
+        },
+        "images": {
+            "files": [],
+            "dirs": {
+                "tutor": {
+                    "files": [
+                        "instructor.jpg",
+                        "rec_jQuery.jpg",
+                        "server.jpg"
+                    ],
+                    "dirs": {}
+                },
+                "3d_printing": {
+                    "files": [
+                        "doom.jpg",
+                        "thinker.jpg"
+                    ],
+                    "dirs": {}
+                },
+                "developer": {
+                    "files": [
+                        "app_1.jpg",
+                        "app_2.jpg",
+                        "coding.jpg"
+                    ],
+                    "dirs": {}
+                },
+                "bg": {
+                    "files": [
+                        "bg0.jpg",
+                        "bg1.jpg",
+                        "bg2.jpg",
+                        "bg3.jpg",
+                        "bg4.jpg"
+                    ],
+                    "dirs": {}
+                }
+            }
+        },
+        ".git": {
+            "files": [
+                "COMMIT_EDITMSG",
+                "config",
+                "description",
+                "FETCH_HEAD",
+                "HEAD",
+                "index",
+                "ORIG_HEAD"
+            ],
+            "dirs": {
+                "logs": {
+                    "files": [
+                        "HEAD"
+                    ],
+                    "dirs": {
+                        "refs": {
+                            "files": [],
+                            "dirs": {
+                                "remotes": {
+                                    "files": [],
+                                    "dirs": {
+                                        "origin": {
+                                            "files": [
+                                                "master"
+                                            ],
+                                            "dirs": {}
+                                        }
+                                    }
+                                },
+                                "heads": {
+                                    "files": [
+                                        "master"
+                                    ],
+                                    "dirs": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "hooks": {
+                    "files": [
+                        "applypatch-msg.sample",
+                        "commit-msg.sample",
+                        "post-update.sample",
+                        "pre-applypatch.sample",
+                        "pre-commit.sample",
+                        "pre-push.sample",
+                        "pre-rebase.sample",
+                        "pre-receive.sample",
+                        "prepare-commit-msg.sample",
+                        "update.sample"
+                    ],
+                    "dirs": {}
+                },
+                "objects": {
+                    "files": [],
+                    "dirs": {
+                        "88": {
+                            "files": [
+                                "b73ffbf2ff313459d84bd476de88b854e1e0e1"
+                            ],
+                            "dirs": {}
+                        },
+                        "1c": {
+                            "files": [
+                                "7323eecff66e44e39b54877598128a87abda1f"
+                            ],
+                            "dirs": {}
+                        },
+                        "e4": {
+                            "files": [
+                                "89ffa3aeebad0bd7e97f0ca0c9798ff3340584"
+                            ],
+                            "dirs": {}
+                        },
+                        "cc": {
+                            "files": [
+                                "04cb26cfc1a01d7e5e49636a3300582db68331",
+                                "3ea293282653636cb2488e3934eb73976ead53"
+                            ],
+                            "dirs": {}
+                        },
+                        "03": {
+                            "files": [
+                                "02e9a28d6772f19e1c085ab8084dc0fbd51b79"
+                            ],
+                            "dirs": {}
+                        },
+                        "bf": {
+                            "files": [
+                                "28c2876e694a15589516c71af405c0171e492a"
+                            ],
+                            "dirs": {}
+                        },
+                        "33": {
+                            "files": [
+                                "e0bdd53786e46035d18e8a5c80c6217c9b520b"
+                            ],
+                            "dirs": {}
+                        },
+                        "2b": {
+                            "files": [
+                                "028316cd86e9215975f0b2ec0abc7cc929dc9d",
+                                "68f028d8e36c903a947497c57bb576a62f8e70",
+                                "8cfbd8fe8857d85cb36ea2e376dcae498411b4",
+                                "c4fda6f5eb4301ec33fd3e98565dc0d1efbeb7"
+                            ],
+                            "dirs": {}
+                        },
+                        "34": {
+                            "files": [
+                                "0d287a99ea307750b15f1f5925f3d973d5d12c"
+                            ],
+                            "dirs": {}
+                        },
+                        "cb": {
+                            "files": [
+                                "75d6d051796c2a0a0797100305df89b65005d0"
+                            ],
+                            "dirs": {}
+                        },
+                        "e8": {
+                            "files": [
+                                "eb9f2386a7f868387879fa27c5ad99c48dba75"
+                            ],
+                            "dirs": {}
+                        },
+                        "d1": {
+                            "files": [
+                                "f5a8d0fb237084cc4df05b1e9ace9bec8d1d26"
+                            ],
+                            "dirs": {}
+                        },
+                        "6e": {
+                            "files": [
+                                "b06126c135695cc1b5120a318eb1464d1f056d"
+                            ],
+                            "dirs": {}
+                        },
+                        "27": {
+                            "files": [
+                                "468351a3fa7fa48005ae4f344db9591360c727",
+                                "daf96756954873509962eb7147df94527e74b8"
+                            ],
+                            "dirs": {}
+                        },
+                        "dd": {
+                            "files": [
+                                "00bc564d0e51469a7eaa6332b0e89890bc00fb"
+                            ],
+                            "dirs": {}
+                        },
+                        "f6": {
+                            "files": [
+                                "4cb81a8bd330d77cf1d65b7c70df5bc4d8f3c6"
+                            ],
+                            "dirs": {}
+                        },
+                        "57": {
+                            "files": [
+                                "6fdcf540b33e3c197982aed0134dceeae2f602"
+                            ],
+                            "dirs": {}
+                        },
+                        "23": {
+                            "files": [
+                                "005fd5170d5f7febe4eeac39ed02ebf52d9e65"
+                            ],
+                            "dirs": {}
+                        },
+                        "da": {
+                            "files": [
+                                "22aeadbf1849bd767ec95aa8dd873b892f097e",
+                                "e1830aa3293b464f6d64dd98f98c869a048cba"
+                            ],
+                            "dirs": {}
+                        },
+                        "3f": {
+                            "files": [
+                                "268700df3f540703798685d3f637cc9554c75f",
+                                "446e300307e661f9b2d18a1a99452d41ca563b",
+                                "b0b5990e221c622d6c62cbde51c888c90018f1"
+                            ],
+                            "dirs": {}
+                        },
+                        "94": {
+                            "files": [
+                                "92f5be87ac1879966aa4ec49c05f5e362e13d6"
+                            ],
+                            "dirs": {}
+                        },
+                        "7e": {
+                            "files": [
+                                "c74d834929688d8e29639036dc2cbdf61b75d0"
+                            ],
+                            "dirs": {}
+                        },
+                        "fe": {
+                            "files": [
+                                "c5e88e322e52f72a404c05624d89e593a5d536"
+                            ],
+                            "dirs": {}
+                        },
+                        "16": {
+                            "files": [
+                                "394fa94bfaf58b3b2235650e395b77146d845e"
+                            ],
+                            "dirs": {}
+                        },
+                        "0a": {
+                            "files": [
+                                "9e7bc287045070a83249c1935a6edff5670802"
+                            ],
+                            "dirs": {}
+                        },
+                        "4f": {
+                            "files": [
+                                "0ce98aa12520483425652a788a69c654c56bf6",
+                                "f4bbc3df4848670da891052787a3aab15966dc"
+                            ],
+                            "dirs": {}
+                        },
+                        "cf": {
+                            "files": [
+                                "180e6f2a10c388c9b7e7ea081a1350e0f675e3"
+                            ],
+                            "dirs": {}
+                        },
+                        "18": {
+                            "files": [
+                                "cf7208ff24c68d60dd6b14da12bd678ffee05d"
+                            ],
+                            "dirs": {}
+                        },
+                        "62": {
+                            "files": [
+                                "79adbb2d4ae18b4f4e24540822fc39459a60d0"
+                            ],
+                            "dirs": {}
+                        },
+                        "25": {
+                            "files": [
+                                "11b76b051b1334b1722c0075c6f883b454149d"
+                            ],
+                            "dirs": {}
+                        },
+                        "0d": {
+                            "files": [
+                                "8e38ea146c7bd66fa281d26c955b736f7b696c"
+                            ],
+                            "dirs": {}
+                        },
+                        "8e": {
+                            "files": [
+                                "e47af7074de60642f7febb4dd139e01f7063ab"
+                            ],
+                            "dirs": {}
+                        },
+                        "83": {
+                            "files": [
+                                "f244914c290f61302c3aa02d945e2c7365e7d6"
+                            ],
+                            "dirs": {}
+                        },
+                        "96": {
+                            "files": [
+                                "8c578056077cbf75d00db7345cb2507c6bcd64",
+                                "de41126517549fa666ca31cfa5390e8250bb88"
+                            ],
+                            "dirs": {}
+                        },
+                        "61": {
+                            "files": [
+                                "78527a7780bf0620a5eeae04b74c99908934ce"
+                            ],
+                            "dirs": {}
+                        },
+                        "9f": {
+                            "files": [
+                                "1cad057a0c4484616d6208749327511f3e19be"
+                            ],
+                            "dirs": {}
+                        },
+                        "d5": {
+                            "files": [
+                                "3799f1c5140fc0b869ca840a0f6195858c9481"
+                            ],
+                            "dirs": {}
+                        },
+                        "5b": {
+                            "files": [
+                                "763142c1b561bdb7d355092b004dbe5c34fd2a"
+                            ],
+                            "dirs": {}
+                        },
+                        "7a": {
+                            "files": [
+                                "1997e58015261698a6f23dcdcb5301d8ad06ec",
+                                "32bda143d65836491c78baee654b681ca9ab84",
+                                "e8de8d879f0ce91f2f824aa44cc09ed7badb79"
+                            ],
+                            "dirs": {}
+                        },
+                        "4d": {
+                            "files": [
+                                "5dbe46e4097278c3d76dd8d7a98bd68bd215fd"
+                            ],
+                            "dirs": {}
+                        },
+                        "c9": {
+                            "files": [
+                                "36f64daec4ec30253a275d37a4d1f76d623d02"
+                            ],
+                            "dirs": {}
+                        },
+                        "93": {
+                            "files": [
+                                "02a4cae9a4047be7d19cff7b1ab820b2c1bb5c"
+                            ],
+                            "dirs": {}
+                        },
+                        "40": {
+                            "files": [
+                                "ae4d707cc9e08d32f7e6398aacac6087fafeba",
+                                "fc4712ce9dcfd6505ba83dcb68ad4000a356e8"
+                            ],
+                            "dirs": {}
+                        },
+                        "fc": {
+                            "files": [
+                                "513aba5ac2a8a7cdd922244583874e1a8a86d2"
+                            ],
+                            "dirs": {}
+                        },
+                        "b1": {
+                            "files": [
+                                "8501ddcf54998d8b7aca87b454f1e7c84f9016",
+                                "a12092ef89ea007f701dde7188a0e5aac74c40"
+                            ],
+                            "dirs": {}
+                        },
+                        "6d": {
+                            "files": [
+                                "97b8962dc1f7129b0266d5723c6ae49e580c5d"
+                            ],
+                            "dirs": {}
+                        },
+                        "36": {
+                            "files": [
+                                "6ae7e07bf0f4fec5df71013d49f6d24b3d59b2"
+                            ],
+                            "dirs": {}
+                        },
+                        "7c": {
+                            "files": [
+                                "3683bb49dd2f261c1d3898c69136c8781a7643",
+                                "7f7e074f4ebb61014d09baca71922d9d102574"
+                            ],
+                            "dirs": {}
+                        },
+                        "11": {
+                            "files": [
+                                "8d0d34468214ace09e04f67aa2181d1da6b74a",
+                                "cdc1e344a087920aa8319b39b5361dba74cf66"
+                            ],
+                            "dirs": {}
+                        },
+                        "79": {
+                            "files": [
+                                "b52dffed10e29f21ca96f16155cc39ebd02cc5"
+                            ],
+                            "dirs": {}
+                        },
+                        "3d": {
+                            "files": [
+                                "65b2e29311ddd51b7557f677b381c2c2ac20b0"
+                            ],
+                            "dirs": {}
+                        },
+                        "cd": {
+                            "files": [
+                                "8cecf97f08aee4c89f605dbda6573b1818f9d1",
+                                "a73773f54a095647df396737a94e3849393c72",
+                                "f92d083b284734ebb0f92288138e33b2f53b89"
+                            ],
+                            "dirs": {}
+                        },
+                        "f0": {
+                            "files": [
+                                "3cbb7118e53a82b6ed831502e8b4801bac157a"
+                            ],
+                            "dirs": {}
+                        },
+                        "09": {
+                            "files": [
+                                "18322741707f41747ef7c605869e551aab35bd",
+                                "4d5bae008346d1c8d8de427cceadb6d326078a",
+                                "5f495118b4f746d8558eae50b94d30677d4bce"
+                            ],
+                            "dirs": {}
+                        },
+                        "1f": {
+                            "files": [
+                                "0b2e0c4b3635cd5089fc0c284b8aa0bc39711d"
+                            ],
+                            "dirs": {}
+                        },
+                        "56": {
+                            "files": [
+                                "5124a2b1b4ef89ed7d4c073ba4a6113114df75",
+                                "6a2be117d76716201f152ed475ac1faeea8b31"
+                            ],
+                            "dirs": {}
+                        },
+                        "ba": {
+                            "files": [
+                                "092d1b700b30999069ab1f8b45f8fc5c1eaf4a",
+                                "83f9b2930cfed412fc1ed246eee7968e9bef2b"
+                            ],
+                            "dirs": {}
+                        },
+                        "12": {
+                            "files": [
+                                "e8ac468b30eb329820506549273b1bd472d5c7"
+                            ],
+                            "dirs": {}
+                        },
+                        "f4": {
+                            "files": [
+                                "21158d2c31844cac5539daeee8d0c4fafa667c"
+                            ],
+                            "dirs": {}
+                        },
+                        "5d": {
+                            "files": [
+                                "7dfedcc6dd17d5ab0c03910e72a893549d958f"
+                            ],
+                            "dirs": {}
+                        },
+                        "fa": {
+                            "files": [
+                                "0c085dbdaec256144afd22dfe847a6397dffa5"
+                            ],
+                            "dirs": {}
+                        },
+                        "22": {
+                            "files": [
+                                "bb66fc067635b8e34640b8f9245b0b73c36f3c"
+                            ],
+                            "dirs": {}
+                        },
+                        "e7": {
+                            "files": [
+                                "a57dd0f74cd4e89f9fd82bcf1c7b8349cd0d1a"
+                            ],
+                            "dirs": {}
+                        },
+                        "37": {
+                            "files": [
+                                "a2775615dffe5b2906cfd7f37f5ffcb528a15b"
+                            ],
+                            "dirs": {}
+                        },
+                        "5f": {
+                            "files": [
+                                "4b157320b220799af8fa82a23847a8b14ba73f"
+                            ],
+                            "dirs": {}
+                        },
+                        "ca": {
+                            "files": [
+                                "03ff868b8be885869706dce81ef9f5dad54772"
+                            ],
+                            "dirs": {}
+                        },
+                        "29": {
+                            "files": [
+                                "2d60f877016b46a76e11461e7c8e0e3cb747ef"
+                            ],
+                            "dirs": {}
+                        },
+                        "7d": {
+                            "files": [
+                                "25d38ca5f9f88839564015d56b9e207936d6d4"
+                            ],
+                            "dirs": {}
+                        },
+                        "4e": {
+                            "files": [
+                                "2f936ebc43184439decdd1442f8efdde142949",
+                                "ce21c5cfbcc3cd8d806034a0d8d626bc1a8e4e"
+                            ],
+                            "dirs": {}
+                        },
+                        "a4": {
+                            "files": [
+                                "025b2fd12d4ac19d1adbc7af85d37d120e261e",
+                                "5a0c11d96e666259b978f65555fd439ca0c321"
+                            ],
+                            "dirs": {}
+                        },
+                        "a1": {
+                            "files": [
+                                "838bdc61192eac4a7f884d60cb4d48df242aa0"
+                            ],
+                            "dirs": {}
+                        },
+                        "de": {
+                            "files": [
+                                "41c239c083b01cd6831576f36d6a20abaf3b2d"
+                            ],
+                            "dirs": {}
+                        },
+                        "35": {
+                            "files": [
+                                "c19c7d01a50efd6d58242b9b48d1b23b2b4a45"
+                            ],
+                            "dirs": {}
+                        },
+                        "54": {
+                            "files": [
+                                "fd8985b5a55a6fb33dea73ad94687840c03b02"
+                            ],
+                            "dirs": {}
+                        },
+                        "pack": {
+                            "files": [],
+                            "dirs": {}
+                        },
+                        "f7": {
+                            "files": [
+                                "ce1f77419513ffd872bb9be6b704c748d258e8"
+                            ],
+                            "dirs": {}
+                        },
+                        "a9": {
+                            "files": [
+                                "14c831982c853eca406fb53e22ceb68f0deda9"
+                            ],
+                            "dirs": {}
+                        },
+                        "info": {
+                            "files": [],
+                            "dirs": {}
+                        },
+                        "2d": {
+                            "files": [
+                                "2e6ef69057f16e30d2c01b30bbfc3a1008923b",
+                                "9f158c77a07efa4e6104caf0b3bc6f3c0338a9"
+                            ],
+                            "dirs": {}
+                        },
+                        "9e": {
+                            "files": [
+                                "3a808aefd3a82abdbd1a39ebdab93a3d6f9769"
+                            ],
+                            "dirs": {}
+                        },
+                        "39": {
+                            "files": [
+                                "66c8144f00a26be82d01af77ae8294ee89bc30",
+                                "d6192394a2f413b05318b7fef2a128930b47fb"
+                            ],
+                            "dirs": {}
+                        },
+                        "e1": {
+                            "files": [
+                                "7d329287c1a74c303c21b5a338cb913aa97255"
+                            ],
+                            "dirs": {}
+                        },
+                        "81": {
+                            "files": [
+                                "b1c1bcda78948fd886130836d26ae8d10e8707"
+                            ],
+                            "dirs": {}
+                        },
+                        "3e": {
+                            "files": [
+                                "21c2a8eedd9819d6123a63dfcad74169fcb5b7"
+                            ],
+                            "dirs": {}
+                        },
+                        "a8": {
+                            "files": [
+                                "83bc2b10af034aa88af736304d7221549585ed",
+                                "c33662535e9d0376a46f49afbd969df4eb3b09"
+                            ],
+                            "dirs": {}
+                        },
+                        "ec": {
+                            "files": [
+                                "51b616c15ea3da12d8d600e103414e6ca92a77",
+                                "9c2b6de67387eb5a75df554722b9cfa33e6b22",
+                                "ee58e32ffd0e84d6f22553d433d34f56e74a82"
+                            ],
+                            "dirs": {}
+                        },
+                        "42": {
+                            "files": [
+                                "8c6d1775f40fe8453e5bfb6324fb4abe526417",
+                                "c30887b3d07628a07ae9082cceb41bbc86c945"
+                            ],
+                            "dirs": {}
+                        },
+                        "78": {
+                            "files": [
+                                "39daf89429d81bba590bf43951b326d9305850",
+                                "983fa0d834ead708ef5d992c101722fae17c02"
+                            ],
+                            "dirs": {}
+                        },
+                        "c0": {
+                            "files": [
+                                "5106f353f23466553091a2d2289f9d4b0a2a2d",
+                                "73a318db873b778d0ae23add3aaacdafa999d6",
+                                "fd564b01a1736d0c903884fc27463a6fcf23a8"
+                            ],
+                            "dirs": {}
+                        },
+                        "0c": {
+                            "files": [
+                                "ae87273d5d5cc05876ee5164b9dc7f460439a6"
+                            ],
+                            "dirs": {}
+                        },
+                        "a5": {
+                            "files": [
+                                "43009e2a5638e03c14563b4aa54f6e38db92d4"
+                            ],
+                            "dirs": {}
+                        },
+                        "c2": {
+                            "files": [
+                                "1bc7f4308595b1a75ae050577d1b911726d385"
+                            ],
+                            "dirs": {}
+                        },
+                        "84": {
+                            "files": [
+                                "db1d1e6d3db7093bee76ffa8c07d66a12ce257"
+                            ],
+                            "dirs": {}
+                        },
+                        "bd": {
+                            "files": [
+                                "67bb0fc1a61a6b762bb7a75806d0551fc2c085",
+                                "7aa018092cd6ede64d153a3a8a827c88f6202b"
+                            ],
+                            "dirs": {}
+                        },
+                        "5c": {
+                            "files": [
+                                "121deabc53622b075912cb7fa8e139239bcef2"
+                            ],
+                            "dirs": {}
+                        },
+                        "74": {
+                            "files": [
+                                "dd665c935837252dcb465bb8cf17e4f863b7b4"
+                            ],
+                            "dirs": {}
+                        },
+                        "2a": {
+                            "files": [
+                                "e9e8416df0627ee18a83c525893c44da876300"
+                            ],
+                            "dirs": {}
+                        },
+                        "dc": {
+                            "files": [
+                                "0e975bae10fa792f84898d1ab0f08b914f6a80"
+                            ],
+                            "dirs": {}
+                        },
+                        "db": {
+                            "files": [
+                                "46f65418f3823c72ae2176442b3c289b90cca9",
+                                "d8d27624c03e4dcc55bdcc2cea7e5f2b12f9ae"
+                            ],
+                            "dirs": {}
+                        },
+                        "d8": {
+                            "files": [
+                                "13d8b1bb1c214a8d42e4a602e20f41260b185e",
+                                "21d1c3bacc84e6e8fd5079cb96d9c6421a1237",
+                                "fbe473d080b94b8e12d5c6e3b794d45919b783"
+                            ],
+                            "dirs": {}
+                        },
+                        "2c": {
+                            "files": [
+                                "05042caad7cf48b41273139d5e49876b4f5ef5"
+                            ],
+                            "dirs": {}
+                        },
+                        "60": {
+                            "files": [
+                                "175a72ec5b61f84eaaccc4c5c7aa340823c11d"
+                            ],
+                            "dirs": {}
+                        },
+                        "76": {
+                            "files": [
+                                "23bad93de756332b4ec125967076de1c8ba5ca",
+                                "dbc666a82c82f37b614bfc4e24a126d80f61b3"
+                            ],
+                            "dirs": {}
+                        },
+                        "e6": {
+                            "files": [
+                                "889b7a62ce1157ce0ff5de16ff9ff1aa27339f"
+                            ],
+                            "dirs": {}
+                        },
+                        "f5": {
+                            "files": [
+                                "4576da91f4acd2a23e392a945efd2fd283e545",
+                                "6fd23ea7af2f007d849f0412c1e379d29904fb"
+                            ],
+                            "dirs": {}
+                        },
+                        "92": {
+                            "files": [
+                                "aa0e61512702337025f57ac27d064dc31531f1"
+                            ],
+                            "dirs": {}
+                        },
+                        "8b": {
+                            "files": [
+                                "d3be0964b32cf06f3ac18e5254859188b051e8",
+                                "d68a6196526287b4e14bbc2248be4c79854064"
+                            ],
+                            "dirs": {}
+                        },
+                        "77": {
+                            "files": [
+                                "6223558a1f3937c0c51612049d99f5101e39be"
+                            ],
+                            "dirs": {}
+                        },
+                        "2e": {
+                            "files": [
+                                "b4d6f8d45de76a36c577e543c54c5596251016",
+                                "c5abe538b9dcd6d1cc5b400233c81de12949de"
+                            ],
+                            "dirs": {}
+                        },
+                        "c4": {
+                            "files": [
+                                "4fc46d4908f81c2fa0eecf246a504d96dc2506",
+                                "774747ed115a5bc6aceaf8366d1d25be20f1c0"
+                            ],
+                            "dirs": {}
+                        },
+                        "15": {
+                            "files": [
+                                "6311aeeb6adb93d620a0e33f965768419d4a83"
+                            ],
+                            "dirs": {}
+                        },
+                        "e0": {
+                            "files": [
+                                "989e732e917fcc6c6fc7c609d71bcc8d786164"
+                            ],
+                            "dirs": {}
+                        }
+                    }
+                },
+                "info": {
+                    "files": [
+                        "exclude"
+                    ],
+                    "dirs": {}
+                },
+                "refs": {
+                    "files": [],
+                    "dirs": {
+                        "remotes": {
+                            "files": [],
+                            "dirs": {
+                                "origin": {
+                                    "files": [
+                                        "master"
+                                    ],
+                                    "dirs": {}
+                                }
+                            }
+                        },
+                        "tags": {
+                            "files": [],
+                            "dirs": {}
+                        },
+                        "heads": {
+                            "files": [
+                                "master"
+                            ],
+                            "dirs": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
