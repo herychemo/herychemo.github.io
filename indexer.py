@@ -28,3 +28,14 @@ my_indexes = get_obj(mypath )
 
 json_data = json.dumps(my_indexes, indent=4)
 print(json_data )
+
+with open('indexes.json', 'w') as out:
+    out.write( json_data )
+
+print("""
+    .
+    .
+    .
+¡DONE!
+
+""");
