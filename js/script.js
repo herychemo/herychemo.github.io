@@ -3,7 +3,7 @@ var p_windows = 0;
 
 var main = function(){
 	console.log("Hi Friends");
-
+	alert( "En Construcción." );
 	var image_path_base = "./images/bg/bg$.jpg";
 	
 	p_windows = $(".parallax-window");	
