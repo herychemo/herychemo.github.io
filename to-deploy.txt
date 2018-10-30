@@ -17,4 +17,4 @@ make it easy configuring it on npm tasks
 
 to deploy use
 
-ngh
+ngh -d heriberto-reyes
