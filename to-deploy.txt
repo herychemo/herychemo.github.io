@@ -3,21 +3,8 @@ all instructions here: https://alligator.io/angular/deploying-angular-app-github
 
   summary:
 
-make sure you have installed the tool with:
-
->>  npm install -g angular-cli-ghpages
-or
 >>  npm i angular-cli-ghpages --save-dev
-
-
-
-to build use something like:
 
 >>  ng build --prod --base-href "https://<user-name>.github.io/<repo>/"
 
-make it easy configuring it on npm tasks
-
-
-to deploy use
-
-ngh -d dist/heriberto-reyes  --branch=master --dry-run
+>>  ngh -d dist/heriberto-reyes  --branch=master --dry-run
