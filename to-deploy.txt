@@ -20,4 +20,4 @@ make it easy configuring it on npm tasks
 
 to deploy use
 
-ngh -d heriberto-reyes
+ngh -d dist/heriberto-reyes  --branch=master --dry-run
