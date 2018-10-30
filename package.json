@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "buildProd": "ng build --prod --base-href \"https://herychemo.github.io/\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
